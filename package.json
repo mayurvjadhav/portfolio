@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "webpack --mode production",
+    "start": "node index.js",
     "lint": "eslint .",
     "preview": "vite preview"
   },

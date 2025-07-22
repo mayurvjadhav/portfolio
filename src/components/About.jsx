@@ -25,7 +25,7 @@ export const About = ({ darkMode }) => {
             </p>
             <div className="flex gap-4">
               <a
-                href="https://drive.google.com/file/d/1j8UVpYJoCMRugqXchYYWhjqXMCwfD5ql/view?usp=drive_link"
+                href="https://drive.google.com/file/d/12_dvFsV0u2VTQSSbMthTq0TyH-CifUtn/view?usp=sharing"
                 target="_blank"
               >
                 <button
@@ -38,7 +38,7 @@ export const About = ({ darkMode }) => {
                   See Resume
                 </button>
               </a>
-              <a href="#contact">
+              {/* <a href="#contact">
                 <button
                   className={`px-6 py-3 rounded-md border ${
                     darkMode
@@ -48,10 +48,10 @@ export const About = ({ darkMode }) => {
                 >
                   Let's Connect
                 </button>
-              </a>
+              </a> */}
             </div>
           </div>
-          <div className="md:w-2/5">
+          {/* <div className="md:w-2/5">
             <div
               className={`rounded-full overflow-hidden border-4 ${
                 darkMode ? "border-blue-400" : "border-blue-600"
@@ -63,7 +63,7 @@ export const About = ({ darkMode }) => {
                 className="w-full h-full object-cover"
               />
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>

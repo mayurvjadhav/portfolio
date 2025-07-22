@@ -8,24 +8,24 @@ export const Projects = ({ darkMode }) => {
       description:
         "A full-stack Chat application with React, Node.js and MongoDB",
       tags: ["React", "Node.js", "MongoDB"],
-      image: "public/Chatty_Screenshot_69.jpg",
-      link: "https://mayurvjadhav.github.io/",
+      image: "Chatty_Screenshot_69.jpg",
+      link: "https://full-stack-chat-app-chatty-d5w5.onrender.com/",
     },
     {
       id: 2,
-      title: "Task Management App",
+      title: "Link Shortner (NOT HOSTED)",
       description:
-        "Productivity app with drag-and-drop features and team collaboration",
-      tags: ["Vue.js", "Firebase", "Tailwind CSS"],
-      image: "/api/placeholder/400/300",
-      link: "https://mayurvjadhav.github.io/",
+        "Full Stack URL Shortener with React JS with Tailwind CSS, Supabase, Shadcn UI, With Analytics",
+      tags: ["React.js", "Supabase", "Tailwind CSS"],
+      image: "shrinkly.jpg",
+      // link: "",
     },
     {
       id: 3,
       title: "Weather Dashboard",
       description: "Real-time responsive weather tracking forecasts",
       tags: ["JavaScript", "OpenWeather API", "React.js"],
-      image: "public/Weather_Screenshot_69.jpg",
+      image: "Weather_Screenshot_69.jpg",
       link: "https://mayurvjadhav.github.io/",
     },
   ];

@@ -23,7 +23,7 @@ export const Skills = ({ darkMode }) => {
     },
     {
       name: "Version Control",
-      skills: ["git/github"],
+      skills: ["git ", "github"],
     },
     // {
     //   name: "DevOps & Tools",

@@ -31,7 +31,7 @@ export const Portfolio = () => {
       <Contact darkMode={darkMode} />
 
       {/* Footer */}
-      <Footer darkMode={darkMode} />
+      {/* <Footer darkMode={darkMode} /> */}
     </div>
   );
 };
